@@ -1,0 +1,27 @@
+.card-text,
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  height: 200px;
+}
+.card-footer {
+  background-color: #ffffff !important;
+}
+
+.card-wrapper {
+  padding: 10px;
+}
+
+.card-img-top {
+  height: 300px; /* Adjust this value as needed */
+}
